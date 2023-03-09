@@ -10,3 +10,6 @@ x32.patch
 python3ify_examples.patch
 no_errorprone.patch
 0001-Fix-Python-3.10-C-tests-9128.patch
+CVE-2021-22569.patch
+CVE-2021-22570.patch
+CVE-2022-1941.patch

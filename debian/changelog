@@ -1,3 +1,19 @@
+protobuf (3.12.4-1ubuntu7.22.04.1) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: DoS in protobuf-java parser
+    - debian/patches/CVE-2021-22569.patch: Improve performance of parsing
+      unknown fields in Java
+    - CVE-2021-22569
+  * SECURITY UPDATE: Null pointer dereference issue
+    - debian/patches/CVE-2021-22570.patch: fix null pointer dereference
+    - CVE-2021-22570
+  * SECURITY UPDATE: Dos vulnerability in cpp and python parser
+    - debian/patches/CVE-2022-1941.patch: fix parsing vulnerability for the
+      MessageSet type
+    - CVE-2022-1941
+
+ -- Nishit Majithia <nishit.majithia@canonical.com>  Thu, 09 Mar 2023 15:05:50 +0530
+
 protobuf (3.12.4-1ubuntu7) jammy; urgency=medium
 
   * No-change rebuild with Python 3.10 only
