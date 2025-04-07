@@ -13,3 +13,9 @@ no_errorprone.patch
 CVE-2021-22569.patch
 CVE-2021-22570.patch
 CVE-2022-1941.patch
+CVE-2024-7254-pre1.patch
+CVE-2024-7254-1.patch
+CVE-2024-7254-2.patch
+CVE-2024-7254-3.patch
+CVE-2024-7254-4.patch
+CVE-2024-7254-5.patch

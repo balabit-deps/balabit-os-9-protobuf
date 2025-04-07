@@ -1,3 +1,14 @@
+protobuf (3.12.4-1ubuntu7.22.04.2) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: Stack overflow.
+    - debian/patches/CVE-2024-7254-*.patch: Add recursion checks and recursion
+      limit in .../protobuf/ArrayDecoders.java,
+      .../protobuf/CodedInputStream.java, .../protobuf/MessageSchema.java, and
+      .../protobuf/MessageSetSchema.java. Add tests.
+    - CVE-2024-7254
+
+ -- Hlib Korzhynskyy <hlib.korzhynskyy@canonical.com>  Mon, 07 Apr 2025 15:47:33 -0230
+
 protobuf (3.12.4-1ubuntu7.22.04.1) jammy-security; urgency=medium
 
   * SECURITY UPDATE: DoS in protobuf-java parser
