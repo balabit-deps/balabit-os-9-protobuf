@@ -1,3 +1,17 @@
+protobuf (3.12.4-1ubuntu7.22.04.4) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: DoS via python recursion limit
+    - debian/patches/CVE-2025-4565.patch: add recursion depth limits to
+      python/google/protobuf/internal/decoder.py,
+      python/google/protobuf/internal/decoder_test.py,
+      python/google/protobuf/internal/message_test.py,
+      python/google/protobuf/internal/python_message.py,
+      python/google/protobuf/internal/self_recursive.proto,
+      python/setup.py.
+    - CVE-2025-4565
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Fri, 04 Jul 2025 12:02:11 -0400
+
 protobuf (3.12.4-1ubuntu7.22.04.2) jammy-security; urgency=medium
 
   * SECURITY UPDATE: Stack overflow.
